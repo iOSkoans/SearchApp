@@ -49,6 +49,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Search" id="Xs8-aY-Krb"/>
+                    <connections>
+                        <outlet property="searchBar" destination="Ti8-6h-YUz" id="vvZ-Vy-5Pf"/>
+                        <outlet property="tableView" destination="XBS-dB-UfB" id="SIu-Rc-C0f"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1191" y="385"/>
